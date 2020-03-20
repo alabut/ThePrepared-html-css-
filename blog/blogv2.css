@@ -11,6 +11,58 @@
 
 
 
+/* chapter banner */
+
+.chapter-banner {
+  border: 2px solid #485668;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.chapter-banner p,
+.chapter-banner ul,
+.chapter-banner li {
+  text-align: left;
+}
+
+.chapter-banner .chapter-icon {
+  margin-top: -40px;
+}
+
+.chapter-banner .chapter-title {
+  color: #485668;
+  font-weight: 900;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.chapter-banner ul,
+.chapter-banner li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.chapter-banner li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 16px;
+}
+
+.chapter-banner a {
+  border-bottom: 1px solid;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.chapter-banner a:hover {
+  border-color: transparent;
+}
+
+
+
 /* headline */
 
 .single h1.entry-title {

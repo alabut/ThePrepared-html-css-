@@ -1,0 +1,47 @@
+<!--
+
+NOTES:
+
+Good news:
+
+* no media queries needed after all (for now)
+* atomic/modular approach to the CSS with good namespacing means there shouldn't be any issues with other parts of the site, as far as I could test.
+
+Bad news:
+
+* atomic approach means lots of repetition in the CSS that could become technical debt to be addressed later. E.g. the coronavirus banner and author bio share a similar layout but almost no overlapping styles.
+* making the entire coronavirus chapter marker into a link ended up being too hacky and unreliable, so I went with the longer layout with embedded links.
+* for the virus icon - please remember to actually download and transfer the URL away from my personal S3 bucket
+
+-->
+
+
+
+<!-- ADD to the <footer> section, as a sibling element before the sharing buttons: <div class="share-buttons -single text-center"> -->
+
+<div class="chapter-banner">
+    <img src="https://s3.amazonaws.com/alabut.com/images/theprepared/chapter-icon-virus3-svgomg.svg" class="rounded-circle chapter-icon" width="70px" height="70px">  
+    <p class="chapter-title">Coronavirus Special Coverage</p>
+    <p>A collection of news posted throughout the week for those that want signal, not noise.</p>
+	<p><a href="https://theprepared.com/covid-19/">Read our coronavirus guide</a> and learn how to prepare for possible spread to your area. Scenarios, shopping lists, background info and everything else you need, all in one place.</p>
+</div> <!-- /chapter-banner -->
+
+
+
+<!-- FUTURE VERSION if we eventually have categories or tagging for blog posts, so we can link to all corona-related coverage for example -->
+
+<div class="chapter-banner">
+    <img src="https://s3.amazonaws.com/alabut.com/images/theprepared/chapter-icon-virus.svg" class="rounded-circle chapter-icon" width="70px" height="70px">  
+    <p class="chapter-title">Coronavirus Special Coverage</p>
+    <p>A collection of news posted throughout the week for those that want signal, not noise.</p>
+	<ul>
+		<li>
+			<a href="#">Previous coverage</a> - all of our posts in this ongoing series. 
+		</li>
+		<li>
+			<a href="#">Coronavirus status page</a> - learn how to prepare for possible spread to your area. Scenarios, shopping lists, background info and everything else you need, all in one place.
+		</li>
+	</ul>
+</div> <!-- /chapter-banner -->
+
+
