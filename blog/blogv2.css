@@ -1,0 +1,76 @@
+/* breadcrumbs */
+
+#breadcrumbs span {
+  color: #999;
+}
+
+#breadcrumbs a {
+    color: #888;
+    text-decoration: none;
+}
+
+
+
+/* headline */
+
+.single h1.entry-title {
+  letter-spacing: -1px;
+}
+
+
+
+/* author byline */
+
+.author-byline.row {
+    margin-top: 20px;
+}
+
+.author-headshot {
+    margin-right: 10px;
+}
+
+.author-byline ul, .author-byline li {
+    line-height: 130%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.author-name {
+    font-weight: 900;
+    margin-bottom: 2px !important;
+    margin-top: 5px !important;
+    text-transform: uppercase;
+}
+
+.author-title {
+    color: #888;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.author-link a {
+    border-bottom: 1px solid transparent;
+    color: #888;
+    font-size: 14px;
+    padding-bottom: 1px;
+    text-decoration: none;
+}
+
+
+
+/* metadata: date & comment count */
+
+.single .entry-meta {
+  color: #888;
+  margin-bottom: 0;
+}
+
+.single .entry-meta time {
+  margin-right: 8px !important;
+}
+
+.single .entry-meta .byline a {
+    color: #888;
+    text-decoration: none;
+}
