@@ -137,6 +137,7 @@
     padding: 20px 20px 0;
     text-align: center;
     margin-top: 20px;
+    width: 100%;
 }
 
 .author-bio .author-headshot {
@@ -156,6 +157,10 @@
   color: #fff;
   font-family: Open Sans,sans-serif;
   font-style: normal;
+}
+
+.author-byline .author-bio .author-metadata {
+  text-align: center;
 }
 
 .author-bio a {
