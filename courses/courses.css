@@ -1,0 +1,13 @@
+.courses {
+	background: #fff;
+	color: #1E2428;
+}
+
+.courses .jumbotron-fluid {
+	background-color: #465568;
+	background-image: url(images/hero.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
