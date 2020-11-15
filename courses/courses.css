@@ -1,13 +1,36 @@
+.ld-course-resume { background: red; }
+
 .courses {
 	background: #fff;
 	color: #1E2428;
 }
 
-.courses .jumbotron-fluid {
+.rounded {
+	border-radius: 20px;
+}
+
+.jumbotron-fluid,
+.row.instructor,
+.guarantee  {
 	background-color: #465568;
-	background-image: url(images/hero.png);
+	background-image: url(images/courses-hero.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
+}
+
+.faq {
+	background-color: #2DB5A3;
+	color: #fff;
+}
+
+.faq dd {
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.faq dd:last-child {
+	border: none;
 }
