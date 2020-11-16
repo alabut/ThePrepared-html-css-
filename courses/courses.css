@@ -65,11 +65,14 @@ h5::before {
 	font-size: 56px;
 }
 
-.purchase-container a {
-	background: #fff;
+.purchase-container a,
+.jumbotron-fluid .learndash-course-student-message .purchase-container .learndash-wrapper a.ld-course-resume {
+	background: #fff!important;
 	border-radius: 50px;
 	color: #465568;
 	display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
 	padding: 1rem 1.5rem !important;
 	text-decoration: none;
 }
@@ -160,4 +163,8 @@ h5::before {
 .quote {
 	font-size: 18px;
 	font-weight: 900;
+}
+
+.guarantee {
+	margin-bottom: -20px;
 }
