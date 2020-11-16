@@ -18,12 +18,12 @@
 
 .swoopy-background {
 	background-color: #465568;
-	background-image: url(https://alabut.com/ThePrepared-html-css-/courses/images/courses-hero.svg);
+	background-image: url(https://theprepared.com/wp-content/uploads/2020/11/courses-hero.svg);
 	color: #fff;
 }
 
 .gray-triangle {
-	background-image: linear-gradient(rgba(255,255,255,1), rgba(246,247,251,0)), url(https://alabut.com/ThePrepared-html-css-/courses/images/courses-gray-triangle.svg);
+	background-image: linear-gradient(rgba(255,255,255,1), rgba(246,247,251,0)), url(https://theprepared.com/wp-content/uploads/2020/11/courses-gray-triangle.svg);
 }
 
 .fine-print {
