@@ -34,6 +34,13 @@
 	color: #2DB5A3;
 }
 
+h1 {
+	font-size: 56px;
+	font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 120%;
+}
+
 h4, h5 {
 	font-size: 13px;
 	letter-spacing: 3px;
@@ -151,6 +158,12 @@ h5::before {
 
 .miniquote a {
 	color: #1E2428;
+	padding-bottom: 1px;
+	text-decoration: none;
+}
+
+.miniquote a:hover {
+	color: #2D9687;
 }
 
 .thumbnail {
