@@ -63,6 +63,13 @@ h5::before {
 	line-height: 160%;
 }
 
+.ministats {
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
 .purchase-container {
 	border: 1px solid #fff;
 	display: inline-block;
@@ -140,6 +147,7 @@ h5::before {
 	color: #fff;
 	font-weight: 900;
 	padding-bottom: 1px;
+	text-decoration: none;
 }
 
 .faq a:hover {
