@@ -9,15 +9,45 @@
 	border-radius: 20px;
 }
 
-.jumbotron-fluid,
-.row.instructor,
-.guarantee  {
+.swoopy-background {
 	background-color: #465568;
 	background-image: url(images/courses-hero.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
+}
+
+.purchase-container {
+	border: 1px solid #fff;
+	display: inline-block;
+}
+
+.purchase-container h5 {
+	font-size: 13px;
+	letter-spacing: 3px;
+}
+
+.purchase-container h5::before {
+	background-color: #2D9687;
+	border-radius: 50%;
+	content: "";
+	display: inline-block;
+	height: 12px;
+	margin-bottom: -1px;
+	margin-right: 10px;
+	width: 12px;
+}
+
+.purchase-container h6 {
+	font-size: 56px;
+}
+
+.purchase-container a {
+	background: #fff;
+	border-radius: 50px;
+	color: #465568;
+	display: inline-block;
 }
 
 .faq {
