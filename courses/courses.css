@@ -9,26 +9,30 @@
 	border-radius: 20px;
 }
 
-.swoopy-background {
-	background-color: #465568;
-	background-image: url(images/courses-hero.png);
+.swoopy-background,
+.skills {
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.swoopy-background {
+	background-color: #465568;
+	background-image: url(images/courses-hero.png);
 	color: #fff;
 }
 
-.purchase-container {
-	border: 1px solid #fff;
-	display: inline-block;
+.fine-print {
+	font-size: 13px;
 }
 
-.purchase-container h5 {
+h4, h5 {
 	font-size: 13px;
 	letter-spacing: 3px;
+	text-transform: uppercase;
 }
 
-.purchase-container h5::before {
+h5::before {
 	background-color: #2D9687;
 	border-radius: 50%;
 	content: "";
@@ -37,6 +41,11 @@
 	margin-bottom: -1px;
 	margin-right: 10px;
 	width: 12px;
+}
+
+.purchase-container {
+	border: 1px solid #fff;
+	display: inline-block;
 }
 
 .purchase-container h6 {
@@ -48,6 +57,42 @@
 	border-radius: 50px;
 	color: #465568;
 	display: inline-block;
+}
+
+.skills {
+	background-image: linear-gradient(rgba(255,255,255,1), rgba(246,247,251,0)), url(images/courses-gray-triangle.svg);
+}
+
+.skills ul, 
+.skills li {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.skills ul {
+	column-count: 2;
+	column-gap: 20px;
+}
+
+.skills li {
+	margin-top: 10px;
+}
+
+.skills li::before {
+	background-color: #2D9687;
+	border-radius: 50%;
+	content: "";
+	display: inline-block;
+	height: 6px;
+	margin-bottom: 2px;
+	margin-right: 10px;
+	width: 6px;
+}
+
+.preview-cards {
+	box-shadow: 0px 64px 200px 0px rgba(0, 0, 0, 0.08);
+	padding: 0px 32px 12px 32px;
 }
 
 .faq {
