@@ -22,6 +22,17 @@
 	color: #fff;
 }
 
+.jumbotron-fluid a {
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.jumbotron-fluid a:hover {
+	border-bottom: 1px solid #fff;
+	color: #fff;
+}
+
 .gray-triangle {
 	background-image: linear-gradient(rgba(255,255,255,1), rgba(246,247,251,0)), url(https://theprepared.com/wp-content/uploads/2020/11/courses-gray-triangle.svg);
 }
@@ -80,15 +91,43 @@ h5::before {
 }
 
 .purchase-container a,
-.jumbotron-fluid .learndash-course-student-message .purchase-container .learndash-wrapper a.ld-course-resume {
-	background: #fff!important;
+.jumbotron-fluid .learndash-course-student-message .purchase-container .learndash-wrapper a.ld-course-resume,
+.skills .btn {
 	border-radius: 50px;
-	color: #465568;
 	display: inline-block;
 	font-size: 16px;
 	font-weight: normal;
 	padding: 1rem 1.5rem !important;
 	text-decoration: none;
+}
+
+.purchase-container a,
+.jumbotron-fluid .learndash-course-student-message .purchase-container .learndash-wrapper a.ld-course-resume {
+	background: #fff!important;
+	color: #465568;
+}
+
+.preview-cards a {
+	color: #465568;
+	padding-bottom: 1px;
+	text-decoration: none;
+}
+
+.preview-cards a:hover {
+	border-bottom: 1px solid #2D9687;
+	color: #2D9687;
+	text-decoration: none;
+}
+
+.skills .btn {
+	background: #2D9687;
+	border-color: #2D9687;
+	color: #fff;
+}
+
+.skills .btn:hover {
+	background: transparent;
+	color: #2D9687;
 }
 
 .skills ul, 
