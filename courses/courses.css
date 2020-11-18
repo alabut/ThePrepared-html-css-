@@ -179,6 +179,8 @@ h5::before {
 
 .faq dd:last-child {
 	border: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .faq a {
