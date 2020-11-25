@@ -22,14 +22,15 @@
 	color: #fff;
 }
 
-.jumbotron-fluid a {
-	color: #fff;
+.description a {
+	border-bottom: 1px solid #39C0AC;
+	color: #39C0AC;
 	font-weight: 700;
 	text-decoration: none;
 }
 
-.jumbotron-fluid a:hover {
-	border-bottom: 1px solid #fff;
+.description a:hover {
+	border-color: #fff;
 	color: #fff;
 }
 
@@ -104,7 +105,14 @@ h5::before {
 .purchase-container a,
 .jumbotron-fluid .learndash-course-student-message .purchase-container .learndash-wrapper a.ld-course-resume {
 	background: #fff!important;
+	border: 1px solid #fff;
 	color: #465568;
+}
+
+.purchase-container a:hover,
+.jumbotron-fluid .learndash-course-student-message .purchase-container .learndash-wrapper a.ld-course-resume:hover {
+	background: transparent!important;
+	color: #fff;
 }
 
 .preview-cards a {
