@@ -162,6 +162,10 @@ h5::before {
   }
 }
 
+.skills.long-lists ul {
+	column-count: 1;
+}
+
 .skills li {
 	margin-botom: 10px;
 }
