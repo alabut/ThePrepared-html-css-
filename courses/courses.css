@@ -1,4 +1,6 @@
-.ld-course-resume { background: red; }
+body #responsive-menu-container {
+	box-shadow: none;
+}
 
 .courses {
 	background: #fff;
