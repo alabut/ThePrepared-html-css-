@@ -6,6 +6,15 @@ body #responsive-menu-container {
 	box-shadow: none;
 }
 
+header.banner,
+.admin-bar header.banner {
+	background-color: transparent;top: initial;
+}
+
+header.banner .navbar-brand {
+	border-radius: 4px;
+}
+
 .courses {
 	background: #fff;
 	color: #1E2428;
