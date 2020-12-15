@@ -33,7 +33,7 @@ header.banner .navbar-brand {
 
 .swoopy-background {
 	background-color: #465568;
-	background-image: url(https://theprepared.com/wp-content/uploads/2020/11/courses-hero.svg);
+	background-image: url(https://theprepared.com/wp-content/uploads/2020/12/courses-hero-darker.svg);
 	color: #fff;
 }
 
@@ -75,7 +75,7 @@ h4, h5 {
 }
 
 h5::before {
-	background-color: #2D9687;
+	background-color: #2db5a3;
 	border-radius: 50%;
 	content: "";
 	display: inline-block;
@@ -206,7 +206,7 @@ h5::before {
 }
 
 .faq {
-	background-color: #2DB5A3;
+	background-color: #269A8A;
 	color: #fff;
 }
 
