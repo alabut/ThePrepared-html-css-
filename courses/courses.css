@@ -1,18 +1,14 @@
-body {
-	padding-top: 0;
-}
-
 body #responsive-menu-container {
 	box-shadow: none;
 }
 
-header.banner,
-.admin-bar header.banner {
+.with-minimal-nav header.banner,
+.with-minimal-nav .admin-bar header.banner {
 	background-color: transparent;
 	top: initial;
 }
 
-header.banner .navbar-brand {
+.with-minimal-nav header.banner .navbar-brand {
 	border-radius: 4px;
 }
 
@@ -23,6 +19,10 @@ header.banner .navbar-brand {
 
 .super-rounded {
 	border-radius: 20px;
+}
+
+.with-minimal-nav.jumbotron-fluid {
+	margin-top: -118px;
 }
 
 .swoopy-background,
