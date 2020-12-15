@@ -146,6 +146,20 @@ h5::before {
 	opacity: 0.8;
 }
 
+.purchase-container a.secondary-cta {
+	background: transparent !important;
+	border: none;
+	border-radius: initial;
+	border-bottom: 1px solid rgba(255,255,255,0.25);
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 0 1px !important;
+}
+
+.purchase-container a.secondary-cta:hover {
+	border-color: #fff;
+}
+
 .preview-cards a {
 	color: #465568;
 	padding-bottom: 1px;
