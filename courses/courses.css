@@ -103,6 +103,10 @@ h5::before {
 	display: inline-block;
 }
 
+.inline-cta .purchase-container {
+	border-color: rgba(0,0,0,0.1);
+}
+
 .purchase-container h6 {
 	font-size: 56px;
 }
@@ -129,6 +133,17 @@ h5::before {
 .jumbotron-fluid .learndash-course-student-message .purchase-container .learndash-wrapper a.ld-course-resume:hover {
 	background: transparent!important;
 	color: #fff;
+}
+
+.inline-cta .purchase-container a {
+	background: #465568 !important;
+	color: #fff;
+}
+
+.inline-cta .purchase-container a:hover {
+	background: #465568;
+	color: #fff;
+	opacity: 0.8;
 }
 
 .preview-cards a {
