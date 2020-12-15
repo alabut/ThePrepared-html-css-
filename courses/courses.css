@@ -8,7 +8,8 @@ body #responsive-menu-container {
 
 header.banner,
 .admin-bar header.banner {
-	background-color: transparent;top: initial;
+	background-color: transparent;
+	top: initial;
 }
 
 header.banner .navbar-brand {
@@ -268,4 +269,8 @@ h5::before {
 
 .guarantee {
 	margin-bottom: -20px;
+}
+
+.guarantee .seal {
+	width: 284px;
 }
