@@ -20,6 +20,12 @@ body #responsive-menu-container {
 	margin-top: -118px;
 }
 
+@media (max-width: 991.98px) {
+	.with-minimal-nav.jumbotron-fluid {
+		margin-top: -58px;
+	}
+}
+
 .swoopy-background,
 .skills {
 	background-position: bottom right;
