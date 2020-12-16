@@ -160,6 +160,24 @@ h5::before {
 	border-color: #fff;
 }
 
+.giant-buttons a {
+	background: #2db5a3 !important;
+	border-color: transparent;
+	border-radius: 20px;
+	color: #fff;
+	display: inline-block;
+	min-width: 360px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.giant-buttons a strong {
+	display: block;
+	font-size: 26px;
+}
+
 .preview-cards a {
 	color: #465568;
 	padding-bottom: 1px;
