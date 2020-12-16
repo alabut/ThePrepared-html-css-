@@ -179,6 +179,18 @@ h5::before {
 	font-size: 26px;
 }
 
+@media only screen and (max-width: 576px) {
+
+	.giant-buttons a {
+		min-width: auto;
+	}
+
+	.giant-buttons a strong {
+		font-size: 20px;
+		letter-spacing: -0.5px;
+	}
+}
+
 .preview-cards a {
 	color: #465568;
 	padding-bottom: 1px;
