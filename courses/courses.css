@@ -191,13 +191,25 @@ h5::before {
 	}
 }
 
-.preview-cards a {
+.preview-card {
+	box-shadow: 0px 64px 200px 0px rgba(0, 0, 0, 0.08);
+}
+
+.preview-card a:hover img {
+	filter: brightness(80%);
+}
+
+.preview-description {
+	padding: 15px 32px 12px 32px;
+}
+
+.preview-description a {
 	color: #465568;
 	padding-bottom: 1px;
 	text-decoration: none;
 }
 
-.preview-cards a:hover {
+.preview-description a:hover {
 	border-bottom: 1px solid #2D9687;
 	color: #2D9687;
 	text-decoration: none;
@@ -255,11 +267,6 @@ h5::before {
 	margin-bottom: 2px;
 	margin-right: 10px;
 	width: 6px;
-}
-
-.preview-cards {
-	box-shadow: 0px 64px 200px 0px rgba(0, 0, 0, 0.08);
-	padding: 0px 32px 12px 32px;
 }
 
 .dark-border {
