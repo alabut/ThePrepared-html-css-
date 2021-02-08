@@ -110,6 +110,7 @@ h5::before {
 
 .purchase-container h6 {
 	font-size: 56px;
+	letter-spacing: -2px;
 }
 
 .purchase-container a,
