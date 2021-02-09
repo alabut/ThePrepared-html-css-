@@ -186,10 +186,6 @@ h5::before {
 		min-width: auto;
 	}
 
-	.giant-buttons a strong {
-		font-size: 20px;
-		letter-spacing: -0.5px;
-	}
 }
 
 .giant-buttons a span {
